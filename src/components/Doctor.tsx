@@ -16,7 +16,7 @@ export default function Doctor() {
         {/* Treść */}
         <div className="flex flex-col justify-center px-8 py-14 md:px-12">
           <h2
-            className="text-3xl font-bold mb-1"
+            className="text-4xl font-bold mb-1"
             style={{ fontFamily: 'var(--font-sans)' }}
           >
             Dr Jan Kowalski
