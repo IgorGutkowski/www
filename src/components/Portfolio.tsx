@@ -4,7 +4,6 @@ import { cn } from '../lib/utils'
 const slides = [
   { src: '/result.jpg', alt: 'Rynoplastyka przed i po – przypadek 1' },
   { src: '/result2.jpg', alt: 'Rynoplastyka przed i po – przypadek 2' },
-  { src: '/portfolio-3.jpg', alt: 'Rynoplastyka przed i po – przypadek 3' },
 ]
 
 export default function Portfolio() {
