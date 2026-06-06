@@ -7,7 +7,7 @@ export default function Doctor() {
           <img
             src="/doctor.webp"
             alt="Dr Jan Kowalski"
-            className=" object-cover object-center transition-transform duration-500 hover:scale-105"
+            className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
           />
         </div>
 
