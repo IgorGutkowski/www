@@ -2,8 +2,8 @@ import { useState, useRef } from 'react'
 import { cn } from '../lib/utils'
 
 const slides = [
-  { src: '/result.jpg', alt: 'Rynoplastyka przed i po – przypadek 1' },
-  { src: '/result2.jpg', alt: 'Rynoplastyka przed i po – przypadek 2' },
+  { src: '/result.webp', alt: 'Rynoplastyka przed i po – przypadek 1' },
+  { src: '/result2.webp', alt: 'Rynoplastyka przed i po – przypadek 2' },
 ]
 
 export default function Portfolio() {
@@ -48,7 +48,6 @@ export default function Portfolio() {
 
   return (
     <section id="portfolio" className="bg-[var(--color-cream)] py-16">
-      {/* Nagłówek */}
       <div className="mb-10 px-6 text-center">
         <h2
           className="mb-2 text-4xl font-bold"
@@ -69,7 +68,6 @@ export default function Portfolio() {
         onMouseUp={onMouseUp}
         onMouseLeave={onMouseLeave}
       >
-        {/* Slider */}
         <div
           className="flex transition-transform duration-500"
           style={{ transform: `translateX(-${current * 100}%)` }}
@@ -88,7 +86,6 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* Kropki */}
       <div className="mt-8 flex justify-center gap-3">
         {slides.map((_, i) => (
           <button
@@ -103,7 +100,6 @@ export default function Portfolio() {
         ))}
       </div>
 
-      {/* CTA */}  
       <div className="mt-10 px-6 text-center">
         <a
           href="#kontakt"

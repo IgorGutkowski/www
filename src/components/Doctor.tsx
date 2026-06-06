@@ -1,19 +1,16 @@
 export default function Doctor() {
   return (
     <section id="doctor" className="bg-white">
-      {/* Mobile: układ kolumnowy / Desktop: siatka 2-kolumnowa */}
       <div className="grid md:grid-cols-2">
 
-        {/* Zdjęcie */}
         <div className="overflow-hidden" style={{ aspectRatio: '6/7' }}>
           <img
-            src="/doctor.png"
+            src="/doctor.webp"
             alt="Dr Jan Kowalski"
             className=" object-cover object-center transition-transform duration-500 hover:scale-105"
           />
         </div>
 
-        {/* Treść */}
         <div className="flex flex-col justify-center px-8 py-14 md:px-12">
           <h2
             className="text-4xl font-bold mb-1"

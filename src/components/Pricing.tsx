@@ -59,7 +59,6 @@ export default function Pricing() {
         </div>
       </div>
 
-      {/* CTA */}
       <div className="mt-12 text-center">
         <a
           href="#kontakt"

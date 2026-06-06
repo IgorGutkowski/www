@@ -5,16 +5,14 @@ export default function Hero() {
       className="relative flex flex-col justify-center overflow-hidden"
       style={{ minHeight: '100dvh' }}
     >
-      {/* Tło */}
       <div
           className="absolute inset-0 bg-cover bg-center scale-105"
           style={{
-            backgroundImage: "url('/hero.png')",
+            backgroundImage: "url('/hero.webp')",
             filter: 'blur(2px) brightness(0.75)',
   }}
       />
 
-      {/* Gradient na dole dla czytelności tekstu */}
       <div
         className="absolute inset-0"
         style={{
@@ -23,7 +21,6 @@ export default function Hero() {
         }}
       />
 
-      {/* Treść - wyrównana do dołu */}
       <div className="relative flex flex-col items-center px-7 pb-16 pt-32 text-center">
         <h1
           className="mb-5 text-white font-bold leading-[1.15]"
